@@ -15,8 +15,8 @@
 				<string>NO</string>
 				<key>iOSOpenDevUsePackageVersionPList</key>
 				<string>YES</string>
-				<key>iOSOpenDevRootlessInstallPrefix</key>
-				<string>/var/jb</string>
+				<key>iOSOpenDevPackageScheme</key>
+				<string>rootful</string>
 			</dict>
 		</dict>
 	</array>
