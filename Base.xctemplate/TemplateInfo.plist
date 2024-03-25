@@ -19,6 +19,8 @@
 			<string>___PACKAGENAME___</string>
 			<key>SharedSettings</key>
 			<dict>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>@loader_path/.jbroot/usr/lib @loader_path/.jbroot/Library/Frameworks</string>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<string>$(iOSOpenDevPath)/lib/</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
