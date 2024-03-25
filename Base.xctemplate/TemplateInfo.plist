@@ -19,6 +19,10 @@
 			<string>___PACKAGENAME___</string>
 			<key>SharedSettings</key>
 			<dict>
+				<key>LIBRARY_SEARCH_PATHS</key>
+				<string>$(iOSOpenDevPath)/lib/</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<string>$(inherited) $(iOSOpenDevPath)/lib/</string>
 				<key>CODE_SIGNING_ALLOWED</key>
 				<string>NO</string>
 				<key>CODE_SIGN_IDENTITY</key>
@@ -60,14 +64,12 @@
 			<string>*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj</string>
 			<key>HEADER_SEARCH_PATHS</key>
 			<string>$(iOSOpenDevPath)/include/</string>
-			<key>LIBRARY_SEARCH_PATHS</key>
-			<string>$(iOSOpenDevPath)/lib/**</string>
 			<key>iOSOpenDevPath</key>
 			<string>/opt/iOSOpenDev</string>
 			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 			<string>latest_iphoneos</string>
 			<key>FRAMEWORK_SEARCH_PATHS</key>
-			<string>$(iOSOpenDevPath)/frameworks/** $(SDKROOT)/System/Library/PrivateFrameworks</string>
+			<string>$(SDKROOT)/System/Library/PrivateFrameworks</string>
 		</dict>
 		<key>SDK</key>
 		<string>iphoneos</string>
