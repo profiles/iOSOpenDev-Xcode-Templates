@@ -20,7 +20,7 @@
 			<key>SharedSettings</key>
 			<dict>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>@loader_path/.jbroot/usr/lib @loader_path/.jbroot/Library/Frameworks</string>
+				<string>@loader_path/.jbroot/usr/lib @loader_path/.jbroot/Library/Frameworks /var/jb/usr/lib /var/jb/Library/Frameworks</string>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<string>$(iOSOpenDevPath)/lib/</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
