@@ -100,8 +100,6 @@ Why 0xdeadfa11? See http://developer.apple.com/library/ios/#technotes/tn2151/_in
 		</dict>
 		<key>___PACKAGENAMEASIDENTIFIER___-Info.plist</key>
 		<dict>
-			<key>Group</key>
-			<string>Supporting Files</string>
 			<key>Path</key>
 			<string>___PACKAGENAMEASIDENTIFIER___-Info.plist</string>
 		</dict>

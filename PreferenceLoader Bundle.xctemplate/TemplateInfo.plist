@@ -151,8 +151,6 @@
 		</dict>
 		<key>___PACKAGENAMEASIDENTIFIER___-Info.plist</key>
 		<dict>
-			<key>Group</key>
-			<string>Supporting Files</string>
 			<key>Path</key>
 			<string>___PACKAGENAMEASIDENTIFIER___-Info.plist</string>
 		</dict>

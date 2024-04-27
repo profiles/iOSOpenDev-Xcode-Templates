@@ -172,8 +172,6 @@
 // Prefix header for all source files of the &apos;___PACKAGENAME___&apos; target in the &apos;___PACKAGENAME___&apos; project
 //
 </string>
-			<key>Group</key>
-			<string>Supporting Files</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
