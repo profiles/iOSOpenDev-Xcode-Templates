@@ -20,11 +20,11 @@
 			<key>SharedSettings</key>
 			<dict>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>@loader_path/.jbroot/usr/lib @loader_path/.jbroot/Library/Frameworks /var/jb/usr/lib /var/jb/Library/Frameworks</string>
+				<string>@loader_path/.jbroot/usr/lib @loader_path/.jbroot/Library/Frameworks /var/jb/usr/lib /var/jb/Library/Frameworks /usr/lib /Library/Frameworks</string>
 				<key>LIBRARY_SEARCH_PATHS</key>
-				<string>$(iOSOpenDevPath)/lib/</string>
+				<string>$(iOSOpenDevPath)/lib/iphone/rootless</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<string>$(inherited) $(iOSOpenDevPath)/lib/</string>
+				<string>$(inherited) $(iOSOpenDevPath)/lib/iphone/rootless</string>
 				<key>CODE_SIGNING_ALLOWED</key>
 				<string>NO</string>
 				<key>CODE_SIGN_IDENTITY</key>
